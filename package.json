@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server  --config webpack.config.dev.js --open --hot",
-    "prod": "webpack --config webpack.config.prod.js"
+    "prod": "webpack --config webpack.config.prod.js",
+    "start": "node server/index.js",
+    "nodemon": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
